@@ -1,0 +1,9 @@
++ X  <- runif ( 1 )
+ + Si ( x > 0.3  &&  x < 4 ) {
+ +     Y  <-  " hola "
+ +} Else  si ( x > 0.2  &&  x < 0,3 ) {
+ +     Y  <- " ? ¿Qué onda, Quiubo, ¿que pex "
+ +} Else  si ( x > 0.1  &&  x < 0,2 ) {
+ +     Y  <-  " ¿Qué pedo wey? "
+ +}
+ + Y 
