@@ -1,0 +1,17 @@
+z <-5
+i <-1
+mii <-vector ( "numérico", 0)
+mientras que (z> = 3 && z <= 10) {
+  
+  Moneda <-rbinom (1,1,0.5)
+  longitud (MII) <- Longitud (MII)
+  si (== Moneda 1) {
+    z <-z + 1
+    mii [i] <- z
+  }más{
+    z <-z-1
+    mii [i] <- z
+  }
+  i <-i + 1
+}
+mii
