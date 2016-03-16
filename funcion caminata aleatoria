@@ -1,0 +1,20 @@
+caminata <-función (x) {
+z <- 100
+#x <-100
+Secuencia <- vector ( "numérico", 0)
+para (i en 1: x) {
+  
+  Secuencia [i] <- z
+  longitud (Secuencia) <- Longitud (Secuencia) +1
+  Moneda <- runif (1)
+  si (Moneda <=. 5) {
+    z <- z + .5
+  } Else {
+    z <- z - 0,5
+  }
+   
+}
+Secuencia
+plot (sequence, type = "l")
+}
+########
